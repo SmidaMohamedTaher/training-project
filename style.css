@@ -1,0 +1,173 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background: darkblue;
+    display: flex;
+}
+
+.you{
+    display: flex;
+    align-items: space-between;
+    color: white;
+    gap: 20px;
+   
+}
+
+.img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid white;
+    flex-shrink: 0;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+}
+
+.you h2{
+    font-size: 20px; 
+    text-transform: capitalize;
+}
+
+header{
+    background: #123;
+    height: 100vh;
+    width: 70px;
+    overflow: hidden;
+    justify-content: center;
+    transition: 0.5s;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+}
+
+header ul{
+    list-style: none;
+    padding: 20px 0px;
+    position: relative;
+    height: 95%;
+    margin: 0px 10px;
+}
+
+
+
+header ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 5px 0px;
+    padding: 8px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    transition: 0.3s;
+}
+
+header ul li a i {
+    color: gold;
+    font-size: 30px;
+}
+
+header ul li a:hover , .box:hover{
+    background-color: #ffffff55;
+    
+}
+
+.logout{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    translate: 0 -7px;
+}
+
+.logout a{
+    background-color: red;
+}
+
+header:hover{
+    width: 250px;
+    transition: 0.5s;
+}
+
+/*______________________________________________*/
+/*______________________________________________*/
+/*______________________________________________*/
+
+.content{
+    width: 100%;
+    margin: 0px 10px;
+}
+
+.textdas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+.tables{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box{
+    background-color: #123;
+    flex-basis: 150px;
+    height: 130px;
+    flex-basis: 200px;
+    border-radius: 10px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    transition: 0.3s;
+    font-size:20px;
+}
+
+/*______________________________________________*/
+/*______________________________________________*/
+/*______________________________________________*/
+/*______________________________________________*/
+
+table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 10px;
+}
+
+.head{
+    background: blue;
+    border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.coulun{
+    background: rgba(17, 34, 51, 0.68);
+    border-radius: 10px;
+    height: 40px;
+    color: rgba(255, 255, 255, 0.749);
+    cursor: pointer;
+}
+
+.class{
+    color: gold;
+}
+
+.good{
+    color: purple;
+}
